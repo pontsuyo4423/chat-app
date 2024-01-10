@@ -94,26 +94,33 @@
   margin-bottom: 40px;
 }
 
-.message{
+.message {
+  margin: 10px 0 0 0;
+}
+
+.upper-message{
   display: flex;
 }
 
-.user-name2{
+.message-user {
+  color: #434a54;
   font-size: 16px;
-  color: #434A54;
-  padding: 10px;
 }
 
-.time{
-  font-size: 12px;
+.message-date {
   color: #999;
-  padding: 10px 0;
+  font-size: 12px;
+  padding-left: 10px;
 }
 
-.send-message{
+.lower-message {
+  margin-top: 10px;
+}
+
+.message-content {
+  color: #434a54;
   font-size: 14px;
-  color: #434A54;
-  padding-left: 10px;
+  margin-bottom: 40px;
 }
 
 .form{
